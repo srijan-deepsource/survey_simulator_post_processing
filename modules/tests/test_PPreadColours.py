@@ -13,5 +13,3 @@ def test_PPreadColours():
      
      assert rescol==val
      
-     return
-     

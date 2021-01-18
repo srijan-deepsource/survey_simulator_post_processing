@@ -30,7 +30,5 @@ def test_filterDetectionEfficiencyThreshold():
     
     assert nr1 == nrows
     assert nr2 == 0
-    
-    return
 
     

@@ -15,5 +15,3 @@ def test_PPreadColoursUser():
      val=padafr.at[0,'r-X']
      
      assert resval==val
-     
-     return

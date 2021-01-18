@@ -30,5 +30,4 @@ def test_PPMatchPointingAndColours():
     ncolsre=len(pada6.columns)
     
     assert ncols==ncolsre
-    return     
          

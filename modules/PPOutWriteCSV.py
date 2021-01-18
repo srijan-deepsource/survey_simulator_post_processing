@@ -22,4 +22,3 @@ def PPOutWriteCSV(padain, outf):
 
 
     padain=padain.to_csv(path_or_buf=outf, index=False)
-    return

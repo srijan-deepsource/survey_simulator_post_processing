@@ -17,4 +17,3 @@ def test_PPJoinColourPointing():
     ncolre=len(padare.columns)
     
     assert ncol==ncolre
-    return
