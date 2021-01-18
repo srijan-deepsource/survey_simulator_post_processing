@@ -31,27 +31,27 @@ def PPReadConfigFile():
     
     # Parameter values
     SSPDetectionEfficiency=PPConfig.SSPDetectionEfficiency
-    if (SSPDetectionEfficiency > 1.0 or SSPDetectionEfficiency > 1.0 or isinstance(SSPDetectionEfficiency,(float,int))==False):
+    if (SSPDetectionEfficiency > 1.0 or SSPDetectionEfficiency > 1.0 or isinstance(SSPDetectionEfficiency,(float,int)) is False):
         logging.error('PPreadConfigFile: ERROR: SSP detection efficiency out of bounds (should be between 0 and 1.), or not a number.')
         sys.exit()
         
     minTracklet=PPConfig.minTracklet
-    if (minTracklet < 1 or isinstance(minTracklet,int)==False):
+    if (minTracklet < 1 or isinstance(minTracklet,int) is False):
         logging.error('PPreadConfigFile: ERROR: minimum length of tracklet is zero or negative, or not an integer.')
         sys.exit()
         
     noTracklets=PPConfig.noTracklets
-    if (noTracklets  < 1 or isinstance(noTracklets, int)== False):
+    if (noTracklets  < 1 or isinstance(noTracklets, int) is False):
         logging.error('PPreadConfigFile: ERROR: number of tracklets is zero or less, or not an integer.')
         sys.exit()
         
     trackletInterval=PPConfig.trackletInterval
-    if (trackletInterval <= 0.0 or isinstance(trackletInterval,(float,int))==False):
+    if (trackletInterval <= 0.0 or isinstance(trackletInterval,(float,int)) is False):
         logging.error('PPreadConfigFile: ERROR: tracklet appearance interval is negative, or not a number.')
         sys.exit()
         
     testValue=PPConfig.testValue
-    if (isinstance(testValue,int)==False):
+    if (isinstance(testValue,int) is False):
         logging.error('PPreadConfigFile: ERROR: test value is not an integer.')
         sys.exit()       
     
