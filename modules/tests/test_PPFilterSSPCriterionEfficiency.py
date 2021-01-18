@@ -1,7 +1,5 @@
 #!/bin/python
 
-import pytest
-import pandas as pd
 
 from ..readOif import readOif
 from ..PPFilterSSPCriterionEfficiency import PPFilterSSPCriterionEfficiency

@@ -3,9 +3,6 @@
 
 
 
-import pandas as pd
-import random
-import sys
 
 def PPhookBrightnessWithColour(padain, initfilter, colour, resfilter):
     """

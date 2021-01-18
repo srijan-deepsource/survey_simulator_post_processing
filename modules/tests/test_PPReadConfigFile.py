@@ -1,9 +1,5 @@
 #!/bin/python
 
-import pytest
-
-
-from modules import PPConfig
 from ..PPReadConfigFile import PPReadConfigFile
 
 

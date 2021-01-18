@@ -22,8 +22,6 @@ import numpy as np
 """
 
 """
-#Pandas
-import pandas as pd
 
 __all__ = ['randomizeAstrometry', 'randomizePhotometry']
 
