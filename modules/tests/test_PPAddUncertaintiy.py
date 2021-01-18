@@ -1,9 +1,3 @@
-import pytest
-import numpy as np
-import pandas as pd
-
-
-from ..PPAddUncertainties import addUncertainties
 from ..PPAddUncertainties import calcAstrometricUncertainty
 from ..PPAddUncertainties import calcPhotometricUncertainty
 

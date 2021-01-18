@@ -1,8 +1,5 @@
 #!/bin/python
 
-import pytest
-import pandas as pd
-import sqlite3
 
 from ..PPMatchPointing import PPMatchPointing
 

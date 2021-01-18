@@ -1,8 +1,6 @@
 #!/bin/python
 
-import pytest
-import pandas as pd
-import os, sys
+import os
 
 from ..PPJoinColourPointing import PPJoinColourPointing
 from ..PPhookBrightnessWithColour import PPhookBrightnessWithColour

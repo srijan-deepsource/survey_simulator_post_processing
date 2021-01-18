@@ -1,7 +1,5 @@
 #!/bin/python
 
-import pytest
-import pandas as pd
 
 from ..PPJoinColourPointing import PPJoinColourPointing
 from ..readOif import readOif

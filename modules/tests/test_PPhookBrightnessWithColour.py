@@ -1,7 +1,5 @@
 #!/bin/python
 
-import pytest
-import pandas as pd
 #from filtering import PPFilterDetectionEfficiencyThreshold
 
 from ..readOif import readOif

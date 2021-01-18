@@ -1,14 +1,12 @@
 #!/usr/bin/python
 
-import os,sys
-import pandas as pd
 import logging
 #from filtering import PPFilterDetectionEfficiencyThreshold
-from modules import PPFilterDetectionEfficiencyThreshold, PPreadColoursUser, PPreadColours
+from modules import PPFilterDetectionEfficiencyThreshold, PPreadColours
 from modules import PPhookBrightnessWithColour, PPJoinColourPointing, PPMatchPointing 
 from modules import PPMatchPointingsAndColours, PPFilterSSPCriterionEfficiency
 from modules import PPOutWriteCSV
-from modules import readOif, PPConfig, PPReadConfigFile
+from modules import readOif, PPReadConfigFile
 
 
 
