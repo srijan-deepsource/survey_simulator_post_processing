@@ -12,4 +12,3 @@ def test_PPMatchPointing():
     nlinesdb=len(padapo.index)
     
     assert nlines==nlinesdb
-    return

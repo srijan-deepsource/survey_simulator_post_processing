@@ -43,4 +43,3 @@ def test_PPhookBrightnessWithColour():
 
     
     assert ncolscomp == ncols1
-    return

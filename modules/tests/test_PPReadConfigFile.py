@@ -16,4 +16,3 @@ def test_PPFilterSSPCriterionEfficiency():
     nlco=testvalue
     
     assert nlc==nlco
-    return

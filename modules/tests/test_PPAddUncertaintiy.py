@@ -12,8 +12,6 @@ def test_calcAstrometricUncertainty():
     
     assert result == result_nominal
 
-    return
-
 def test_calcPhotometricUncertainty():
     # Test the function calcPhotometricUncertainty
     snr = 7
@@ -22,6 +20,4 @@ def test_calcPhotometricUncertainty():
     result=calcPhotometricUncertainty(snr)
     
     assert result == result_nominal
-
-    return
 

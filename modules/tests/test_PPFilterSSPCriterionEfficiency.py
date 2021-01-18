@@ -16,4 +16,3 @@ def test_PPFilterSSPCriterionEfficiency():
     nlco=len(padaout.index)
     
     assert nlc==nlco
-    return
